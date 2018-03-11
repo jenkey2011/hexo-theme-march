@@ -1,0 +1,152 @@
+$highlight_theme = hexo-config('highlight_theme')
+$highlight-vs-dark = #282c34
+$highlight-vs-keyword = #e06c75
+$highlight-vs-comment = #7f848e
+
+
+$activityBar-background= #2F333D
+$activityBar-foreground= #D7DAE0
+$activityBarBadge-background= #4D78CC
+$activityBarBadge-foreground= #F8FAFD
+$badge-background= #282c34
+$button-background= #404754
+$debugToolBar-background= #21252b
+$dropdown-background= #1d1f23
+$diffEditor-insertedTextBackground= #00809B33
+$dropdown-border= #181A1F
+$editor-background= #282c34
+$editorError-foreground= #c24038
+$editorMarkerNavigation-background= #21252b
+$editorRuler-foreground= #abb2bf26
+$editor-lineHighlightBackground= #383e4a85
+$editor-selectionBackground= #67769660
+$editor-selectionHighlightBackground= #ffffff10
+$editorCursor-background= #ffffffc9
+$editorCursor-foreground= #3f5de6da
+$editorBracketMatch-border= #515a6b
+$editorBracketMatch-background= #515a6b
+$editor-editor-findMatchBackground= #42557B
+$editor-findMatchHighlightBackground= #314365
+$editor-wordHighlightBackground= #484e5b
+$editor-wordHighlightStrongBackground= #abb2bf26
+$editorGroup-background= #181A1F
+$editorGroup-border= #181A1F
+$editorGroupHeader-tabsBackground= #21252B
+$editorIndentGuide-background= #3B4048
+$editorLineNumber-foreground= #495162
+$editorWhitespace-foreground= #3B4048
+$editorHoverWidget-background= #21252B
+$editorHoverWidget-border= #181A1F
+$editorSuggestWidget-background= #21252B
+$editorSuggestWidget-border= #181A1F
+$editorSuggestWidget-selectedBackground= #2c313a
+$editorWidget-background= #21252B
+$input-background= #1d1f23
+$list-activeSelectionBackground= #2c313a
+$list-activeSelectionForeground= #d7dae0
+$list-focusBackground= #383E4A
+$list-hoverBackground= #292d35
+$list-highlightForeground= #C5C5C5
+$list-inactiveSelectionBackground= #2c313a
+$list-inactiveSelectionForeground= #d7dae0
+$notification-background= #21252b
+$peekViewEditor-matchHighlightBackground= #29244b
+$scrollbarSlider-background= #4e566660
+$scrollbarSlider-activeBackground= #747D9180
+$scrollbarSlider-hoverBackground= #5A637580
+$sideBar-background= #21252b
+$sideBarSectionHeader-background= #282c34
+$statusBar-background= #21252B
+$statusBar-foreground= #9da5b4
+$statusBarItem-hoverBackground= #2c313a
+$statusBar-noFolderBackground= #21252B
+$statusBar-debuggingBackground= #7e0097
+$statusBar-debuggingBorder= #66017a
+$statusBar-debuggingForeground= #ffffff
+$tab-activeBackground= #2c313a
+$tab-border= #181A1F
+$tab-inactiveBackground= #21252B
+$tab-hoverBackground= #323842
+$tab-unfocusedHoverBackground= #323842
+$terminal-ansiBlack= #2D3139
+$terminal-ansiBlue= #2e8ccf
+$terminal-ansiGreen= #98c379ff
+$terminal-foreground= #C8C8C8
+$terminal-ansiYellow= #B4881D
+$titleBar-activeBackground= #282c34
+$titleBar-activeForeground= #9da5b4
+$titleBar-inactiveBackground= #282C34
+$titleBar-inactiveForeground= #6B717D
+
+if $highlight_theme == 'default'
+  $highlight-background = #263238
+  $highlight-current-line = #efefef
+  $highlight-selection = #80CBC420
+  $highlight-foreground = #EEFFFF
+  $highlight-comment = #546E7A
+  $highlight-red = #FF5370
+  $highlight-orange = #F78C6C
+  $highlight-yellow = #FFCB6B
+  $highlight-green = #C3E88D
+  $highlight-aqua = #89DDFF
+  $highlight-blue = #82AAFF
+  $highlight-purple = #C792EA
+  $highlight-gutter = {
+    color: #37474F,
+    bg-color: $highlight-background
+  }
+
+if $highlight_theme == 'darker'
+  $highlight-background = #212121
+  $highlight-current-line = #282a2e
+  $highlight-selection = #61616150
+  $highlight-foreground = #EEFFFF
+  $highlight-comment = #4A4A4A
+  $highlight-red = #FF5370
+  $highlight-orange = #F78C6C
+  $highlight-yellow = #FFCB6B
+  $highlight-green = #C3E88D
+  $highlight-aqua = #89DDFF
+  $highlight-blue = #82AAFF
+  $highlight-purple = #C792EA
+  $highlight-gutter = {
+    color: #424242,
+    bg-color: $highlight-background
+  }
+
+if $highlight_theme == 'pale night'
+  $highlight-background = #292D3E
+  $highlight-current-line = #393939
+  $highlight-selection = #717CB450
+  $highlight-foreground = #A6ACCD
+  $highlight-comment = #676E95
+  $highlight-red = #FF5370
+  $highlight-orange = #F78C6C
+  $highlight-yellow = #FFCB6B
+  $highlight-green = #C3E88D
+  $highlight-aqua = #89DDFF
+  $highlight-blue = #82AAFF
+  $highlight-purple = #C792EA
+  $highlight-gutter = {
+    color: #3A3F58,
+    bg-color: $highlight-background
+  }
+
+if $highlight_theme == 'light'
+  $highlight-background = #F6F8FA
+  $highlight-current-line = #00346e
+  $highlight-selection = #80CBC440
+  $highlight-foreground = #90A4AE
+  $highlight-comment = #90A4AE90
+  $highlight-red = #E53935
+  $highlight-orange = #F76D47
+  $highlight-yellow = #FFB62C
+  $highlight-green = #91B859
+  $highlight-aqua = #39ADB5
+  $highlight-blue = #6182B8
+  $highlight-purple = #7C4DFF
+
+  $highlight-gutter = {
+    color: #CFD8DC,
+    bg-color: $highlight-background
+  }

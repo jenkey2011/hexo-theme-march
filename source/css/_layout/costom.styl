@@ -1,0 +1,198 @@
+body
+  background #f8fafc
+  border-top: 2px solid  #c05b4d;
+figure
+  max-height: 500px
+  overflow-x: auto
+  overflow-y: auto
+  &::selection 
+    background: $light-blue
+    color: #fff 
+
+  &::-webkit-scrollbar 
+    width: 8px
+    height: 6px 
+
+  &::-webkit-scrollbar-thumb 
+    background: $grey
+    border-radius: 5px 
+
+  &::-webkit-scrollbar-track 
+    background: #263238
+
+#nav-bg
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  background-repeat no-repeat
+  background-attachment: fixed
+  background-position: center 
+  background-size: cover 
+  opacity 0.8
+#bg-img
+  width 100%
+  height auto
+  position absolute
+  left 0
+  top 0
+  
+#site-info
+  position relative
+
+.recent-post-item
+  padding: 24px 32px 63px
+  box-shadow: 0 4px 8px 0 rgba(7,17,27,.06)
+  border-radius: 8px
+  transition: all .3s
+  background: #fff
+  .helpWarp
+    display: none
+  .more
+    float: right
+    background: none!important
+    color: $light-black!important
+    &:hover
+      color: $pale-grey!important
+      background: $light-blue!important
+  i.fa-list,i.fa-tag
+    margin-left: 2rem
+    margin-right: 0.2rem
+  .category,.tags
+    text-decoration: none
+    color: $grey
+    margin-left: 0rem
+    &:hover
+      color: $light-blue
+  .category
+    margin-right: 0.5rem
+  .tags
+    margin-right: 0.8rem
+    &:hover
+      text-decoration: underline
+  .content
+    margin-bottom 10px
+  .article-title
+    position relative
+    hr
+      position absolute
+      left 0
+      bottom -2px
+      margin 0
+      opacity 0
+    &:hover
+      border-bottom: 1px solid #fff!important
+      hr
+        opacity 1
+        &:before
+          left: calc(95% - 20px)
+  &:hover
+    box-shadow: 0 8px 16px 0 rgba(7,17,27,.3)
+  img
+    width 100%
+::selection 
+  background: #c05b4d
+  color: #fff 
+
+::-webkit-scrollbar 
+  width: 8px
+  height: 6px 
+
+::-webkit-scrollbar-thumb 
+  background: #cd7e73
+  border-radius: 5px 
+
+::-webkit-scrollbar-track 
+  background: rgba(211, 211, 211, 0.4) 
+
+
+figure.highlight
+  position: relative
+  padding-top: 1rem
+  padding-bottom: 0.5rem
+  border-radius: 5px
+  &:hover
+    .fa-clipboard
+      opacity: 1
+  table 
+    position: relative
+    // width: 100%
+    &::after 
+      position: absolute
+      top: -1rem
+      left: 0
+      right: 0
+      padding: 2px 7px
+      font-size: $code-font-size
+      font-weight: bold
+      color: $light-grey
+      background: darken($code-background, 3%)
+      content: 'Code'
+      display: block
+      background: #21252b
+      color:#909295
+    td,tr
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    .gutter
+      width: 1rem
+    
+  for key, value in $code-type-list
+    &.{key}
+      table
+        &::after
+          content: value
+#footer
+  .framework-info
+    a
+      color: $light-blue
+      &:hover
+        color:$blue
+
+.page-number
+  &.current
+    background: $black!important
+
+#post-content
+
+  code 
+    padding: 3px 5px;
+    border-radius: 4px;
+    color: #c7254e;
+    font-size: 13px;
+    font-family: Consolas, Monaco, Menlo, Consolas, monospace;
+    background: #f8f5ec;
+
+.fa-clipboard
+  z-index 2
+
+#post
+  p,span
+    a
+      color: $light-blue
+      text-decoration: none 
+      &:hover
+        text-decoration: underline
+        color: $blue
+
+#post-content
+  p
+    line-height 1.6
+    margin-bottom: 16px;
+    margin-top: 0
+    
+
+  for value,i in $global-heading
+    h{i}
+      font-weight: bold
+      font-size: value
+      margin-top 1rem
+      &::before
+        font-weight: bold
+        font-size: value
+
+.reward-wrap
+  font-size: 16px
+  line-height 2

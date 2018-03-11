@@ -1,0 +1,49 @@
+#pagination
+  overflow: hidden
+  margin-top: 1rem
+  .prev-post,.next-post
+    a
+      color: $font-color  
+      font-size:18px
+      text-decoration: none
+      font-weight: bold
+      display: inline-block
+      &:hover
+        color:$blue
+  .prev-post
+    margin-left: 4px
+    a
+      &:hover
+        transform: translateX(-4px)
+  .next-post
+    margin-right: 4px
+    a
+      &:hover
+        transform: translateX(4px)
+  .pagination
+    text-align: center
+
+  i.fa.fa-chevron-left
+    margin-right: 0.3rem
+    cursor: pointer
+
+  i.fa.fa-chevron-right
+    margin-left: 0.3rem
+    cursor: pointer
+
+  .space
+    color: $a-link-color
+
+  .page-number
+    display: inline-block
+    margin: 0 0.2rem
+    min-width: w = 1.2rem
+    height: w
+    text-align: center
+    line-height: w
+    cursor: pointer
+
+    &.current
+      background: $cyan
+      color: $white
+      cursor: default
