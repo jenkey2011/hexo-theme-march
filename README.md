@@ -10,7 +10,7 @@ See demo:
 
 # Screenshots
 
-![my blog ](img/Snipaste_2018-03-11_18-33-18.jpg)
+![my blog ](https://raw.githubusercontent.com/jenkey2011/hexo-theme-march/master/source/img/Snipaste_2018-03-11_18-33-18.jpg)
 
 # Installation
 
