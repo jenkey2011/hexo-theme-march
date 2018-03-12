@@ -1,4 +1,3 @@
-# hexo-theme-melody
 
 # hexo-theme-march
 
