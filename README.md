@@ -1,4 +1,3 @@
-
 # hexo-theme-march
 
 Hexo-theme-march is a simple & beautiful & fast theme for Hexo. The core is inspired by the [hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody), so the Documentation of hexo-theme-march are compatible with hexo-theme-melody on the whole. What's more, hexo-theme-march also extends some features based on hexo-theme-melody.
@@ -22,7 +21,7 @@ git clone -b master https://github.com/jenkey2011/hexo-theme-march themes/march
 If you don't have jade & stylus renderer, follow this:
 
 ```bash
-npm install hexo-renderer-jade hexo-renderer-stylus
+npm install --save hexo-renderer-jade hexo-renderer-stylus hexo-generator-search hexo-wordcount
 ```
 
 # Browser Support
