@@ -53,8 +53,8 @@ highlight_theme: default
 #social:
   #icon_name: url
 social:
-  github: https://github.com/jenkey2011
-  weibo: https://weibo.com/747952150
+  github: 
+  weibo: 
   
 # Algolia search
 # ---------------
@@ -88,7 +88,7 @@ fireworks: false
 
 # Analysis
 # ---------------
-baidu_analytics: 5b1f88a8b8504af6901cc5ae78130e0c
+baidu_analytics:
 
 google_analytics:
 
